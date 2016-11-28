@@ -1,16 +1,18 @@
 /* style.css */
 
 body {
-  font-family: 'Geneva', 'Helvetica', sans-serif;
+  font-family: 'Roboto Slab', 'Helvetica', sans-serif;
   font-weight: 300;
 }
-aside.badges {
+
+a {
+  text-decoration: none;
+}
+
+article p {
   display: block;
-  float: right;
-  border: 0;
-  padding: 0.3em;
-  width: 229px;
-  height: 137px;
+  text-indent: 1em;
+  line-height: 1.5em;
 }
 
 footer {
@@ -22,7 +24,34 @@ hr {
   align: center;
   width: 75%;
 }
-details p {
+nav {
+  float: left;
+  margin: 1em;
+  padding: 1em;
+  width: 10em;
+  height: 40em;
+}
+
+nav h1 {
+  font-size: 75%;
+  text-transform: uppercase;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+footer {
   font-style: italic;
   font-size: 75%;
+
+  border-top: solid 1px;
+
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+
+  padding-top: 0.5em;
 }
