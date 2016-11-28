@@ -13,6 +13,11 @@ aside.badges {
   height: 137px;
 }
 
+footer {
+  font-size: 75%;
+  font-style: italic;
+}
+
 hr {
   align: center;
   width: 75%;
