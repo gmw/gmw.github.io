@@ -1,0 +1,23 @@
+/* style.css */
+
+body {
+  font-family: 'Geneva', 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+aside.badges {
+  display: block;
+  float: right;
+  border: 0;
+  padding: 0.3em;
+  width: 229px;
+  height: 137px;
+}
+
+hr {
+  align: center;
+  width: 75%;
+}
+details p {
+  font-style: italic;
+  font-size: 75%;
+}
