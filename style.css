@@ -1,12 +1,27 @@
-html {
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: white;
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: white;
+    }
+}
+
+body {
     font-family: -apple-system, sans-serif;
-    background: white;
     box-sizing: border-box;
 }
 
 header {
     position: fixed;
-    background: white;
+    background: inherit;
     left: 0px;
     top: 0px;
     width: 100%;
